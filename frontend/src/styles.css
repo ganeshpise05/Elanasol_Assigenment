@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+    background-color: #f0f4f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Login, Register, AddContact and Dashboard */
+  .col-md-6 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #6d7fcc;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #6d7fcc;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5b6ba0;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn-success {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Contact List Styling */
+  .list-group-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .list-group-item h5 {
+    margin-bottom: 5px;
+  }
+  
+  .text-end {
+    text-align: end;
+  }
+  
+  /* Error Alert */
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
